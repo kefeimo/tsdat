@@ -11,14 +11,14 @@ VERSION = os.environ["TSDAT_VERSION"]
 
 
 setuptools.setup(
-    name="tsdat",
+    name="tsdat-testbed",
     version=VERSION,
     description="A data processing framework used to convert time series data into standardized format.",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/tsdat/tsdat",
+    url="https://github.com/kefeimo/tsdat",
     author="tsdat",
-    author_email="tsdat@pnnl.gov",
+    author_email="kefeimo@gmail.com",
     license="Simplified BSD (2-clause)",
     classifiers=[
         "Development Status :: 3 - Alpha",
