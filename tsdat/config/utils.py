@@ -196,7 +196,8 @@ def read_yaml(filepath: Path) -> Dict[Any, Any]:
 def get_code_version() -> str:
     version = "N/A"
     try:
-        version = os.environ["CODE_VERSION"]
+        # version = os.environ["CODE_VERSION"]
+        version = "0.1.2"
     except KeyError:
         try:
             version = Version.from_git().serialize(dirty=True, style=Style.SemVer)

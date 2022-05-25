@@ -12,3 +12,5 @@ coverage.xml
 typings/
 .mypy_cache/
 storage/root/
+*.egg-info/
+
